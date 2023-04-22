@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""The `state` module """
+"""The state module """
+
 import models
 from models.base_model import BaseModel, Base
 from os import getenv
