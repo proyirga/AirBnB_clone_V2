@@ -33,7 +33,7 @@ def hbnb():
 
 
 @app.route('/c/<text>', strict_slashes=False)
-def cisfun(text):
+def cisfun(text=None):
     """display “C ” followed by the value of the text variable
     (replace underscore _ symbols with a space )
     """
@@ -42,7 +42,7 @@ def cisfun(text):
 
 @app.route('/python', strict_slashes=False)
 @app.route('/python/<text>', strict_slashes=False)
-def pythoniscool(text = 'is cool'):
+def pythoniscool(text='is cool'):
     """Display “Python ”, followed by the value of the text variable
     (replace underscore _ symbols with a space )
     The default value of text is “is cool”
