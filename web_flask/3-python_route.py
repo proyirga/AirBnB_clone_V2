@@ -29,7 +29,7 @@ def index():
 @app.route('/hbnb', strict_slashes=False)
 def hbnb():
     """Return HBNB"""
-    return 'HBNB!'
+    return 'HBNB'
 
 
 @app.route('/c/<text>', strict_slashes=False)
@@ -51,4 +51,4 @@ def pythoniscool(text='is cool'):
 
 
 if __name__ == "__main__":
-    app.run(host = '0.0.0.0', port = 5000, debug = None)
+    app.run(host='0.0.0.0', port=5000, debug=None)
